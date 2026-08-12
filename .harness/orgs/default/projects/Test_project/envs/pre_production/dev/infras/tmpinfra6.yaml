@@ -9,6 +9,6 @@ infrastructureDefinition:
   spec:
     customDeploymentRef:
       templateRef: localDeployTemplate1
-      versionLabel: v2
+      versionLabel: v3
     variables: []
   allowSimultaneousDeployments: false
