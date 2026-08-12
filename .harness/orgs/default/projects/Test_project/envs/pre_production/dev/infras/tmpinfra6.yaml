@@ -1,0 +1,14 @@
+infrastructureDefinition:
+  name: tmp-infra-6
+  identifier: tmpinfra6
+  orgIdentifier: default
+  projectIdentifier: Test_project
+  environmentRef: dev1
+  deploymentType: CustomDeployment
+  type: CustomDeployment
+  spec:
+    customDeploymentRef:
+      templateRef: localDeployTemplate1
+      versionLabel: v3
+    variables: []
+  allowSimultaneousDeployments: false
