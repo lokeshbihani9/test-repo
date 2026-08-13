@@ -1,0 +1,11 @@
+service:
+  name: test-svc-4
+  identifier: testsvc4
+  orgIdentifier: default
+  projectIdentifier: cd_explore_lokesh
+  serviceDefinition:
+    spec:
+      customDeploymentRef:
+        templateRef: lokeshTestTemplate
+        versionLabel: v2
+    type: CustomDeployment
