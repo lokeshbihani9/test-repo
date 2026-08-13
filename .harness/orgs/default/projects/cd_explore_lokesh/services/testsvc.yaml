@@ -1,0 +1,5 @@
+service:
+  name: test-svc
+  identifier: testsvc
+  orgIdentifier: default
+  projectIdentifier: cd_explore_lokesh
