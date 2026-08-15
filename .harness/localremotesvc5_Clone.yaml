@@ -1,14 +1,13 @@
----
 service:
-  orgIdentifier: "default"
-  projectIdentifier: "Test_project"
+  orgIdentifier: default
+  projectIdentifier: Test_project
   serviceDefinition:
     spec:
       customDeploymentRef:
-        templateRef: "localDeployTemplate1"
-        versionLabel: "v1"
-    type: "CustomDeployment"
-  identifier: "localremotesvc5_Clone"
+        templateRef: localDeployTemplate1
+        versionLabel: v2
+    type: CustomDeployment
+  identifier: localremotesvc5_Clone
   description: ""
   tags: {}
-  name: "local-remote-svc-5 - Clone"
+  name: local-remote-svc-5 - Clone
