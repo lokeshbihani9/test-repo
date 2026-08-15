@@ -5,7 +5,7 @@ service:
     spec:
       customDeploymentRef:
         templateRef: localDeployTemplate1
-        versionLabel: v2
+        versionLabel: v1
     type: CustomDeployment
   identifier: localremotesvc5_Clone
   description: ""
