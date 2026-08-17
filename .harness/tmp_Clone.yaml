@@ -5,8 +5,8 @@ service:
   serviceDefinition:
     spec:
       customDeploymentRef:
-        templateRef: "localDeployTemplate2"
-        versionLabel: "v2"
+        templateRef: "localDeployTemplate1"
+        versionLabel: "v1"
     type: "CustomDeployment"
   identifier: "tmp_Clone"
   description: "asdf"
