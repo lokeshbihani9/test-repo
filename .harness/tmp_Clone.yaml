@@ -9,6 +9,6 @@ service:
         versionLabel: "v2"
     type: "CustomDeployment"
   identifier: "tmp_Clone"
-  description: ""
+  description: "asdf"
   tags: {}
   name: "tmp - Clone"
