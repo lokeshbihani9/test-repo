@@ -4,8 +4,8 @@ service:
   orgIdentifier: default
   projectIdentifier: cd_explore_lokesh
   serviceDefinition:
+    type: CustomDeployment
     spec:
       customDeploymentRef:
         templateRef: QAautoFourTemplate1
-        versionLabel: v2
-    type: CustomDeployment
+        versionLabel: v2    
