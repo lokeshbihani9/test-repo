@@ -1,0 +1,14 @@
+infrastructureDefinition:
+  name: tmp-infra
+  identifier: tmpinfra
+  orgIdentifier: default
+  projectIdentifier: cd_explore_lokesh
+  environmentRef: dev1
+  deploymentType: CustomDeployment
+  type: CustomDeployment
+  spec:
+    customDeploymentRef:
+      templateRef: QAautoFourTemplate1
+      versionLabel: v1
+    variables: []
+  allowSimultaneousDeployments: false
