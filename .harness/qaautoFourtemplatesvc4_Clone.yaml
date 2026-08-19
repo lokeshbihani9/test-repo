@@ -1,0 +1,13 @@
+---
+service:
+  orgIdentifier: "default"
+  projectIdentifier: "cd_explore_lokesh"
+  serviceDefinition:
+    spec:
+      customDeploymentRef:
+        templateRef: "QAautoFourTemplate1"
+        versionLabel: "v2"
+    type: "CustomDeployment"
+  identifier: "qaautoFourtemplatesvc4_Clone"
+  tags: {}
+  name: "qa-autoFour-template-svc-4 - Clone"
