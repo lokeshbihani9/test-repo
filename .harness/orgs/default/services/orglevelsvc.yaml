@@ -2,3 +2,9 @@ service:
   name: org-level-svc
   identifier: orglevelsvc
   orgIdentifier: default
+  serviceDefinition:
+    spec:
+      customDeploymentRef:
+        templateRef: account.accTemplate
+        versionLabel: v1
+    type: CustomDeployment
