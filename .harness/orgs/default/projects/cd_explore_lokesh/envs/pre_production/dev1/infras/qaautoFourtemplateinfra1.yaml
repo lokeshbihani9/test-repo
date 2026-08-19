@@ -1,0 +1,14 @@
+infrastructureDefinition:
+  name: qa-autoFour-template-infra-1
+  identifier: qaautoFourtemplateinfra1
+  orgIdentifier: default
+  projectIdentifier: cd_explore_lokesh
+  environmentRef: dev1
+  deploymentType: CustomDeployment
+  type: CustomDeployment
+  spec:
+    customDeploymentRef:
+      templateRef: QAautoFourTemplate1
+      versionLabel: v2
+    variables: []
+  allowSimultaneousDeployments: false
