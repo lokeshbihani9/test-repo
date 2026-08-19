@@ -1,0 +1,5 @@
+service:
+  name: qa-autoFour-template-svc-1
+  identifier: qaautoFourtemplatesvc1
+  orgIdentifier: default
+  projectIdentifier: cd_explore_lokesh
