@@ -3,3 +3,9 @@ service:
   identifier: qaautoFourtemplatesvc1
   orgIdentifier: default
   projectIdentifier: cd_explore_lokesh
+  serviceDefinition:
+    type: CustomDeployment
+    spec:
+      customDeploymentRef:
+        templateRef: QAautoFourTemplate1
+        versionLabel: v1
