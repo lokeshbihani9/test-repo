@@ -7,7 +7,7 @@ service:
     spec:
       customDeploymentRef:
         templateRef: "QAautoFourTemplate1"
-        versionLabel: "v1"
+        versionLabel: "v2"
   identifier: "qaautoFourtemplatesvc1_Clone"
   tags: {}
   name: "qa-autoFour-template-svc-1 - Clone"
