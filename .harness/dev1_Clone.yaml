@@ -1,0 +1,9 @@
+---
+environment:
+  orgIdentifier: "default"
+  projectIdentifier: "Test_project"
+  tags: {}
+  type: "PreProduction"
+  description: ""
+  identifier: "dev1_Clone"
+  name: "dev1 - Clone"
